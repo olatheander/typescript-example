@@ -1,0 +1,16 @@
+{
+  "name": "typescript2",
+  "version": "1.0.0",
+  "description": "Try out Typescript generating type files",
+  "main": "index.ts",
+  "scripts": {
+    "clear": "rm -r dist",
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ola Theander",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.0.5"
+  }
+}
